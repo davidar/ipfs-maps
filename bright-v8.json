@@ -3,7 +3,7 @@
     "name": "Bright",
     "sources": {
         "mapbox": {
-            "url": "http://klokantech.tileserver.com/v1/index.json?key=WQ5sRntXphOrWgesmtmU",
+            "url": "http://osm2vectortiles.tileserver.com/v1.json",
             "type": "vector"
         }
     },

@@ -3,12 +3,12 @@
     "name": "Bright",
     "sources": {
         "mapbox": {
-            "url": "http://osm2vectortiles.tileserver.com/v1.json",
+            "url": "metadata.json",
             "type": "vector"
         }
     },
-    "sprite": "/assets/sprite",
-    "glyphs": "/assets/font/{fontstack}/{range}.pbf",
+    "sprite": "assets/sprite",
+    "glyphs": "assets/font/{fontstack}/{range}.pbf",
     "metadata": {
         "mapbox:groups": {
             "1444849364238.8171": {

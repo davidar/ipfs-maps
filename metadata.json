@@ -1,0 +1,319 @@
+{
+    "attribution": "&copy; OpenStreetMap contributors",
+    "basename": "v1",
+    "bounds": [
+        -179.99992505545,
+        -85.05112231458,
+        179.99992505545,
+        85.05112231458
+    ],
+    "center": "21.7969,34.6694,3",
+    "description": "Open Streets V1",
+    "format": "pbf",
+    "grids": [
+        "http://osm2vectortiles-0.tileserver.com/v1/{z}/{x}/{y}.grid.json",
+        "http://osm2vectortiles-1.tileserver.com/v1/{z}/{x}/{y}.grid.json",
+        "http://osm2vectortiles-2.tileserver.com/v1/{z}/{x}/{y}.grid.json",
+        "http://osm2vectortiles-3.tileserver.com/v1/{z}/{x}/{y}.grid.json"
+    ],
+    "maskLevel": "8",
+    "maxzoom": 14,
+    "minzoom": 0,
+    "name": "Open Streets V1",
+    "profile": "mercator",
+    "scheme": "xyz",
+    "tilejson": "2.0.0",
+    "tiles": [
+        "http://osm2vectortiles-0.tileserver.com/v1/{z}/{x}/{y}.pbf",
+        "http://osm2vectortiles-1.tileserver.com/v1/{z}/{x}/{y}.pbf",
+        "http://osm2vectortiles-2.tileserver.com/v1/{z}/{x}/{y}.pbf",
+        "http://osm2vectortiles-3.tileserver.com/v1/{z}/{x}/{y}.pbf"
+    ],
+    "vector_layers": [
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "landuse",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "waterway",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "osm_id": "Number"
+            },
+            "id": "water",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "aeroway",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "osm_id": "Number"
+            },
+            "id": "barrier_line",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "osm_id": "Number"
+            },
+            "id": "building",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "osm_id": "Number"
+            },
+            "id": "landuse_overlay",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "layer": "Number",
+                "oneway": "Number",
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "tunnel",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "oneway": "Number",
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "road",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "layer": "Number",
+                "oneway": "Number",
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "bridge",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "admin_level": "Number",
+                "disputed": "Number",
+                "maritime": "Number",
+                "osm_id": "Number"
+            },
+            "id": "admin",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "code": "String",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "osm_id": "Number",
+                "scalerank": "Number"
+            },
+            "id": "country_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "labelrank": "Number",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "placement": "String"
+            },
+            "id": "marine_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "abbr": "String",
+                "area": "Number",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "osm_id": "Number"
+            },
+            "id": "state_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "capital": "String",
+                "ldir": "String",
+                "localrank": "Number",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "osm_id": "Number",
+                "scalerank": "String",
+                "type": "String"
+            },
+            "id": "place_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "area": "Number",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "osm_id": "Number"
+            },
+            "id": "water_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "address": "String",
+                "localrank": "Number",
+                "maki": "String",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "network": "String",
+                "osm_id": "Number",
+                "ref": "String",
+                "scalerank": "Number",
+                "type": "String",
+                "website": "String"
+            },
+            "id": "poi_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "len": "Number",
+                "localrank": "Number",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "osm_id": "Number",
+                "ref": "String",
+                "reflen": "Number",
+                "shield": "String"
+            },
+            "id": "road_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "class": "String",
+                "name": "String",
+                "name_de": "String",
+                "name_en": "String",
+                "name_es": "String",
+                "name_fr": "String",
+                "name_ru": "String",
+                "name_zh": "String",
+                "osm_id": "Number",
+                "type": "String"
+            },
+            "id": "waterway_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        },
+        {
+            "description": "",
+            "fields": {
+                "house_num": "String",
+                "osm_id": "Number"
+            },
+            "id": "housenum_label",
+            "maxzoom": 22,
+            "minzoom": 0
+        }
+    ]
+}

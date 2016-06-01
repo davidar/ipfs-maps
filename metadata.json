@@ -11,23 +11,16 @@
     "description": "Open Streets V1",
     "format": "pbf",
     "grids": [
-        "http://osm2vectortiles-0.tileserver.com/v1/{z}/{x}/{y}.grid.json",
-        "http://osm2vectortiles-1.tileserver.com/v1/{z}/{x}/{y}.grid.json",
-        "http://osm2vectortiles-2.tileserver.com/v1/{z}/{x}/{y}.grid.json",
-        "http://osm2vectortiles-3.tileserver.com/v1/{z}/{x}/{y}.grid.json"
     ],
     "maskLevel": "8",
-    "maxzoom": 14,
+    "maxzoom": 9,
     "minzoom": 0,
     "name": "Open Streets V1",
     "profile": "mercator",
     "scheme": "xyz",
     "tilejson": "2.0.0",
     "tiles": [
-        "http://osm2vectortiles-0.tileserver.com/v1/{z}/{x}/{y}.pbf",
-        "http://osm2vectortiles-1.tileserver.com/v1/{z}/{x}/{y}.pbf",
-        "http://osm2vectortiles-2.tileserver.com/v1/{z}/{x}/{y}.pbf",
-        "http://osm2vectortiles-3.tileserver.com/v1/{z}/{x}/{y}.pbf"
+        "https://ipfs.io/ipfs/QmUefFZttPf9xq4KTkk94rBbZEVrBsTreDi4JA8KYhQFX6/{z}/{x}/{y}"
     ],
     "vector_layers": [
         {

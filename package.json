@@ -1,0 +1,18 @@
+{
+  "name": "ipfs-maps",
+  "version": "1.0.0",
+  "description": "OSM vector tiles displayed with IPFS",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "mapbox-gl": "^0.13.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "standard": "*"
+  },
+  "scripts": {
+    "build": "browserify main.js > pub/bundle.js",
+    "test": "standard"
+  }
+}

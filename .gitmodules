@@ -1,3 +1,12 @@
 [submodule "mbutil"]
 	path = mbutil
 	url = https://github.com/davidar/mbutil.git
+[submodule "pub/osm-liberty"]
+	path = pub/osm-liberty
+	url = https://github.com/lukasmartinelli/osm-liberty.git
+[submodule "pub/font-glyphs"]
+	path = pub/font-glyphs
+	url = https://github.com/orangemug/font-glyphs.git
+[submodule "pub/naturalearthtiles"]
+	path = pub/naturalearthtiles
+	url = https://github.com/lukasmartinelli/naturalearthtiles.git

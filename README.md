@@ -2,9 +2,9 @@
 
 ```sh
 git submodule update --init
-wget https://osm2vectortiles-downloads.os.zhdk.cloud.switch.ch/v2.0/planet.mbtiles
-mbutil/mb-util planet.mbtiles planet
-ipfs add -r planet
+wget https://openmaptiles.os.zhdk.cloud.switch.ch/v3.3/planet_z0_z14.mbtiles
+mbutil/mb-util planet_z0_z14.mbtiles planet_z0_z14
+ipfs add -r planet_z0_z14
 ```
 
 ```sh
